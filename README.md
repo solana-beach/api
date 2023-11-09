@@ -8,5 +8,5 @@ In order to have a structured way of onboarding builders to using our API, we ne
 3. Build an awesome product :)
 
 In case you have any questions, always feel free to reach out to us via telegram or email:
-- telegram: https://t.me/stakingfacilities
-- email: info@stakingfacilities.com
+- telegram: https://t.me/+UW04VHylcMdlZmUy
+- email: admin@cryptotech-munich.com
