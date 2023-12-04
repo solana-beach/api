@@ -1,12 +1,14 @@
-# Solana Beach Developer API
+# Solana Beach API
 
+Hi there, thanks for your interest in the Solana Beach API.
+This API has provided users and developers with easy and free access to network data since the early days.
+Please make sure this API matches your needs:
+- If you're just getting started on Solana and have some data needs, we are happy to have you on board!
+- If you're building an application that needs to be scaled at some point please keep in mind the current rate limit of 100 requests per 10 seconds.
+- If you're building an application that needs to accommodate high-burst workloads please keep in mind the current rate limit of 100 requests per 10 seconds.
 
-At Solana Beach, we are convinced that sharing is caring. We want to help anyone building on Solana to best leverage network data for their projects. Therefore, we are providing limited API access to developers free of charge.
-In order to have a structured way of onboarding builders to using our API, we need anyone looking for an API key to follow these simple steps:
-1. Fill out this [TypeForm](https://solanabeach.typeform.com/to/FYhRvn21)
-2. Sit back and enjoy some time at the ’Beach until we get back to you
-3. Build an awesome product :)
+If you think we can serve your needs go ahead and fill out this [Typeform](https://solanabeach.typeform.com/to/FYhRvn21) and we will happily come back to you with a key via Telegram or Email. 
 
-In case you have any questions, always feel free to reach out to us via telegram or email:
-- telegram: https://t.me/+UW04VHylcMdlZmUy
-- email: admin@cryptotech-munich.com
+To dive into the API visit the [documentation](https://app.swaggerhub.com/apis-docs/V2261/solanabeach-backend_api/0.0.1). If you have any questions or would like to chat with us feel free to join our [Telegram Group](https://t.me/+UW04VHylcMdlZmUy). You can also send an email to admin@cryptotech-munich.com.
+
+If you're happy with the service and would like to support the development and maintenance of the Website and API consider delegating to the [Solana Beach Validator](https://solanabeach.io/validator/BeachiopjxQxL7CaHNSZsynApiZCKx9QFVtcWNz3jDBo). Proceeds of the validator are used to cover the costs of our operations and to improve the Solana Beach experience through new features.
