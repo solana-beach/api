@@ -1,4 +1,6 @@
-# Solana Beach API
+
+
+# <img src="solanabeach.svg" height="70px"> Solana Beach API
 
 Hi there, thanks for your interest in the Solana Beach API.
 This API has provided users and developers with easy and free access to network data since the early days.
