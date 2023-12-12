@@ -6,7 +6,7 @@ Hi there, thanks for your interest in the Solana Beach API.
 This API has provided users and developers with easy and free access to network data since the early days.
 Please make sure this API matches your needs:
 - If you're just getting started on Solana and have some data needs, we are happy to have you on board!
-- If you're building an application that needs to be scaled at some point please keep in mind the current rate limit of 100 requests per 10 seconds.
+- If you're building an application that needs to be scaled at some point please keep in mind the current rate limit of 100 requests per 10 seconds. Further, if your request triggers a call to an external data provider, please keep in mind the additional rate limit of 600 credits per 3 hours.
 - If you're building an application that needs to accommodate high-burst workloads please keep in mind the current rate limit of 100 requests per 10 seconds.
 
 If you think we can serve your needs go ahead and fill out this [Typeform](https://solanabeach.typeform.com/to/FYhRvn21) and we will happily come back to you with a key via Telegram or Email. 
