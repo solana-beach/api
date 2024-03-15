@@ -12,6 +12,6 @@ If you think we can serve your needs feel free to:
 
 Please provide a short explanation on how you intend to use the API.
 
-We typically respond within 48 hours with a key.
+We will respond with a key within 48 hours.
 
 To dive into the API visit the [documentation](https://app.swaggerhub.com/apis-docs/V2261/solanabeach-backend_api/0.0.1). Important notice: Some endpoints are currently broken. We are working on repairing them. Please have some patience. We will soon update the documentation accordingly.
