@@ -2,7 +2,7 @@
 
 Hi, thanks for your interest in the Solana Beach API.
 This API has provided users and developers with easy and free access to network data since the early days.
-Please check whether this api matches your needs given the current rate limits:
+Please check whether this API matches your needs given the current rate limits:
 - A general rate limit of 100 requests per 10 seconds. This limit applies to every request.
 - An on-demand rate limit of 600 requests per 20 minutes. This limit applies to every request that triggers a call to an external data provider.
 
