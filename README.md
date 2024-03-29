@@ -1,13 +1,30 @@
 # <img src="solanabeach.svg" height="70px"> Solana Beach API
-
 Hi, thanks for your interest in the Solana Beach API.
-This API has provided users and developers with easy and free access to network data since the early days.
-Please check whether this API matches your needs given the current rate limits:
-- A general rate limit of 100 requests per 10 seconds. This limit applies to every request.
-- An on-demand rate limit of 600 requests per 20 minutes. This limit applies to every request that triggers a call to an external data provider.
 
-If you think we can serve your needs just ask any team member over [Telegram](https://t.me/+UW04VHylcMdlZmUy) or [Twitter](https://twitter.com/solanabeach_io) for a key and we will respond quickly.
+## Please request an API-Key
+To receive a key please join our [Telegram Group](https://t.me/+UW04VHylcMdlZmUy) and send a DM to one of the team members.
 
-To dive into the API visit the [documentation](https://app.swaggerhub.com/apis-docs/V2261/solanabeach-backend_api/0.0.1). Important notice: Some endpoints are currently broken and we are working on repairing them.
+The two tables below show the rate limit restrictions and how you can trace and throttle your consumption.
 
-If you like the API you can support maintenance and further development by delegating to the [Solana Beach Validator](https://solanabeach.io/validator/BeachiopjxQxL7CaHNSZsynApiZCKx9QFVtcWNz3jDBo).
+| Rate Limiter | Limit | Relevance |
+| ----------- | ----- | ------- |
+| Standard    | 100 requests / 10 seconds | This rate limiter counts every request |
+| On-Demand   | 600 requests / 20 minutes | This rate limiter counts every request that<br> triggers a call to an external data provider |
+
+
+| Response Header    | Relevance | 
+| -------- | ------- |
+| Solana-Beach-Standard-Credits-Remaining  | You can use this value to throttle your scripts |
+| Solana-Beach-Standard-Credits-Consumed   | You can use this value to trace your consumption |
+| Solana-Beach-On-Demand-Credits-Remaining   | You can use this value to throttle your scripts |
+| Solana-Beach-On-Demand-Credits-Consumed   | You can use this value to trace your consumption |
+
+## Documentation
+Our REST-API servers are available under the Base URL `https://api.solanabeach.io/v1`.
+
+Your requests must use the HTTP `GET` method and must include a `Accept: application/json` and `Authorization: YOUR-API-KEY` header.
+
+Here are the [endpoints](https://app.swaggerhub.com/apis-docs/V2261/solanabeach-backend_api/0.0.1). Important notice: Some endpoints are currently broken and we are working on repairing them.
+
+## We appreciate your delegation
+If you're satisfied with this API consider choosing the [Solana Beach Validator](https://solanabeach.io/validator/BeachiopjxQxL7CaHNSZsynApiZCKx9QFVtcWNz3jDBo) next time you are confronted with the decision where to delegate.
