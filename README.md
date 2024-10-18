@@ -22,7 +22,7 @@ The two tables below show the rate limit restrictions and how you can trace and 
 ## Documentation
 Our REST-API servers are available under the Base URL `https://api.solanabeach.io/v1`.
 
-Your requests must use the HTTP `GET` method and must include a `Accept: application/json` and `Authorization: bearer {YOUR-API-KEY}` header.
+Your requests must use the HTTP `GET` method and must include a `Accept: application/json` and `Authorization: Bearer {YOUR-API-KEY}` header.
 
 If the HTTP response status code reports an error the response schema will look like this:
 ```
