@@ -272,8 +272,6 @@ If the HTTP response status code reports an error the response schema will look 
 <br>
 
 `/account/{pubkey}/token-transfers` Fetch token account transfers
-> [!IMPORTANT]
-> This endpoint is broken. We will fix it.
 <details>
 <summary>Query Options</summary>
 <br>
