@@ -1180,20 +1180,6 @@ If the HTTP response status code reports an error the response schema will look 
 </details>
 <br>
 
-`/epoch-history` Fetch epoch history
-
-<details>
-<summary>Response Schema</summary>
-<br>
-
-```
-{
-  "epoch": 0
-}
-```
-</details>
-<br>
-
 `/alias` Fetch alias
 
 <details>
@@ -1257,18 +1243,6 @@ If the HTTP response status code reports an error the response schema will look 
     "validator": true
   }
 ]
-```
-</details>
-<br>
-
-`/cluster-time` Fetch current cluster time
-
-<details>
-<summary>Response Schema</summary>
-<br>
-
-```
-0
 ```
 </details>
 <br>
