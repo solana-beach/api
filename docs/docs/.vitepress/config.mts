@@ -11,6 +11,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Website', link: 'https://solanabeach.io' }
     ],
+    logo: "/logo.svg",
 
     sidebar: [
       {
