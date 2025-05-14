@@ -369,6 +369,7 @@ Returns token transfers associated with the specified account.
 </details>
 <br>
 
+
 ---
 
 ### 📦 <a id="block-data"></a>Block Data
@@ -775,7 +776,6 @@ Returns a paginated list of stake accounts for a given validator.
 
 | Parameter | Description | Default | Max |
 | ------- | ---------------------------------------------------- | ------- | ------- |
-| `address` | The validator's vote public key | - | - |
 | `offset` | Starting point for pagination | 0 | - |
 | `limit` | Maximum number of results to return | 10 | 1000 |
 
@@ -821,7 +821,6 @@ Returns historical block rewards data for a specific validator.
 
 | Parameter | Description | Default | Max |
 | ---------- | ---------------------------------------------- | ------- | ------- |
-| `nodepubkey` | The validator's node public key | - | - |
 | `offset` | Starting point for pagination | 0 | - |
 | `limit` | Maximum number of results to return | 10 | 1000 |
 
@@ -862,7 +861,6 @@ Returns historical success rate data for a specific validator.
 
 | Parameter | Description | Default | Max |
 | ---------- | ---------------------------------------------- | ------- | ------- |
-| `nodepubkey` | The validator's node public key | - | - |
 | `offset` | Starting point for pagination | 0 | - |
 | `limit` | Maximum number of results to return | 10 | 1000 |
 
@@ -904,7 +902,6 @@ Returns historical stake accounts data for a specific validator.
 
 | Parameter | Description | Default | Max |
 | ---------- | ---------------------------------------------- | ------- | ------- |
-| `votepubkey` | The validator's vote public key | - | - |
 | `offset` | Starting point for pagination | 0 | - |
 | `limit` | Maximum number of results to return | 10 | 1000 |
 
@@ -944,7 +941,6 @@ Returns historical stake data for a specific validator.
 
 | Parameter | Description | Default | Max |
 | ---------- | ---------------------------------------------- | ------- | ------- |
-| `votepubkey` | The validator's vote public key | - | - |
 | `offset` | Starting point for pagination | 0 | - |
 | `limit` | Maximum number of results to return | 10 | 1000 |
 
