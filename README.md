@@ -19,7 +19,7 @@ Hi, thanks for your interest in the Solana Beach API.
 
 ## 🔑 <a id="api-key-request"></a>Please request an API-Key
 
-To receive a key please join our Telegram Group and send a DM to one of the team members.
+To receive a key please join our [Telegram Group](https://t.me/+UW04VHylcMdlZmUy) and send a DM to one of the team members.
 
 ## ⚙️ <a id="rate-limits"></a>Rate Limits
 
