@@ -1,7 +1,0 @@
-# Dependency directories
-node_modules/
-jspm_packages/
-package-lock.json
-
-.DS_Store
-dist/
