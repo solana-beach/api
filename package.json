@@ -1,0 +1,20 @@
+{
+  "name": "base-ecosystem-starter",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:greeter:sepolia": "hardhat run scripts/deploy_greeter.ts --network baseSepolia",
+    "deploy:counter:sepolia": "hardhat run scripts/deploy_counter.ts --network baseSepolia",
+    "verify": "ts-node scripts/verify.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
